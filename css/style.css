@@ -26,7 +26,7 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: #6f64cc;
-  transition: 0.8s all;
+  transition: 0.2s all;
 }
 
 .container {
@@ -50,7 +50,7 @@ a {
 
 input {
   padding: 15px;
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 1.1em;
   cursor: pointer;
   width: 65px;
@@ -87,7 +87,7 @@ input[type="button"]:hover {
   background-color: rgb(250, 110, 206); 
   width:104px;
   border-radius:30px;
-
+  transition: 0.2s all;
 }
 
 #erase-button {
@@ -95,7 +95,7 @@ input[type="button"]:hover {
   background-color: rgb(250, 110, 206); 
   width:104px;
   border-radius:30px;
-
+  transition: 0.2s all;
 }
 
 input.equal {
@@ -103,6 +103,7 @@ input.equal {
   background-color: rgb(250, 110, 206); 
   border-radius:30px;
   height: 62px;
+  transition: 0.2s all;
 }
 
 #clear-button:hover ,
