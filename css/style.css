@@ -1,0 +1,112 @@
+/* ========= Global Styles  ========== */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* ========= Global Styles ========== */
+
+#result::placeholder {
+  color: rgb(128, 126, 126);
+}
+
+.calc {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #6f64cc;
+  transition: 0.8s all;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center;
+
+}
+
+input {
+  padding: 15px;
+  color: rgb(255, 255, 255);
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 65px;
+  background-color: rgb(47, 51, 50);
+  border: none;
+  outline: none;
+  border-radius: 30%;
+  margin: 0.2em;
+  font-size:22px;
+}
+
+.second-row,
+.third-row,
+.fourth-row,
+.fifth-row {
+  margin-bottom: 4px;
+}
+
+input[type="text"] {
+  background-color: rgb(47, 51, 50);
+  width:312px;
+  height: 90px;
+  border-radius:30px;
+
+}
+
+input[type="button"]:hover {
+  background-color: rgb(75, 74, 74);
+  color: #fff;
+}
+
+#clear-button {
+  color: #fff;
+  background-color: rgb(250, 110, 206); 
+  width:104px;
+  border-radius:30px;
+
+}
+
+#erase-button {
+  color: #fff;
+  background-color: rgb(250, 110, 206); 
+  width:104px;
+  border-radius:30px;
+
+}
+
+input.equal {
+  width:137px;
+  background-color: rgb(250, 110, 206); 
+  border-radius:30px;
+  height: 62px;
+}
+
+#clear-button:hover ,
+#erase-button:hover,
+input.equal:hover {
+  background-color: rgb(198, 33, 146);
+}
